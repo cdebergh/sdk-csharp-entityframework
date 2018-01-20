@@ -3,6 +3,23 @@
 
 This is a simple example CRUD ASP.NET Core 2.0 rest service using entity framework. It is based on https://github.com/chsakell/dotnetcore-entityframework-api
 
+## Required Base Feature Support
+
+1. Registration
+Instruction in Jenkinsfile or equivalent to register this service for visibility
+2. Instrumentation
+Prometheus or equivalent to make the service operation visible
+3. Logging
+Nlog or equivalent
+4. Documentation
+README
+5. Unit Testing
+XUnit or equivalent
+6. Static Code Analysis
+7. Code Formatting
+EasyConfig or equivalent
+
+
 # Code Example
 
 Fetch the contents of the service by issuing an HTTP GET on the /api/examples endpoint.
